@@ -1,7 +1,6 @@
 import React from 'react';
 
-
- const Technologies = () => {
+const Technologies = () => {
      return (
          <div>
              <ul>
