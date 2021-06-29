@@ -4,8 +4,7 @@
     <list default="true" id="332d0bf4-8cd1-4063-b318-f361e230f63d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -56,6 +55,7 @@
       <workItem from="1623432717697" duration="20000" />
       <workItem from="1623751796590" duration="206000" />
       <workItem from="1623752178379" duration="19683000" />
+      <workItem from="1624963611093" duration="2198000" />
     </task>
     <servers />
   </component>
