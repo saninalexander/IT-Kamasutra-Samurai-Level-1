@@ -10,12 +10,12 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 
 const App = (props) => {
-
+    const {sidebar} = props.state;
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
                 <Header/>
-                <Navbar/>
+                <Navbar state={sidebar}/>
                 <div className='app-wrapper-content'>
                     <Route path='/profile' render={() => <Profile state={props.state.profilePage}/>}/>
                     <Route path='/dialogs' render={() => <Dialogs state={props.state.dialogsPage}/>}/>

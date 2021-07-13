@@ -12,7 +12,7 @@ let state = {
             {id: 3, name: 'Victor'},
             {id: 4, name: 'Artem'},
             {id: 5, name: 'Ivan'},
-            {id: 6, name: 'Reggie'}
+            {id: 6, name: 'Reggie'},
         ],
         messages: [
             {id: 1, message: 'Hi'},
@@ -20,6 +20,13 @@ let state = {
             {id: 3, message: 'Yo'},
             {id: 4, message: 'Yo'},
             {id: 5, message: 'Yo'}
+        ]
+    },
+    sidebar: {
+        friends: [
+            {id: 1, name: 'Masha', img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'},
+            {id: 2, name: 'Victor', img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'},
+            {id: 3, name: 'Artem', img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'},
         ]
     }
 }
