@@ -8,6 +8,7 @@ const FriendsBlock = (props) => {
 
     return (
         <div className={classes.friendsBlockElements}>
+            <h1>Friends</h1>
             {friendsBlockElements}
         </div>
     )

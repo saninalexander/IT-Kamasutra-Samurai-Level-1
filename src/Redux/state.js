@@ -8,9 +8,17 @@ let state = {
     dialogsPage: {
         dialogs: [
             {id: 1, name: 'Sasha'},
-            {id: 2, name: 'Masha'},
-            {id: 3, name: 'Victor'},
-            {id: 4, name: 'Artem'},
+            {
+                id: 2,
+                name: 'Masha',
+                img: 'http://images6.fanpop.com/image/photos/38300000/Shosanna-Dreyfus-inglourious-basterds-38365336-200-200.jpg'
+            },
+            {
+                id: 3,
+                name: 'Victor',
+                img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'
+            },
+            {id: 4, name: 'Artem', img: 'https://upload.wikimedia.org/wikipedia/en/e/e8/Hans_Landa_IB_2009.jpg'},
             {id: 5, name: 'Ivan'},
             {id: 6, name: 'Reggie'},
         ],
@@ -24,9 +32,17 @@ let state = {
     },
     sidebar: {
         friends: [
-            {id: 1, name: 'Masha', img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'},
-            {id: 2, name: 'Victor', img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'},
-            {id: 3, name: 'Artem', img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'},
+            {
+                id: 2,
+                name: 'Masha',
+                img: 'http://images6.fanpop.com/image/photos/38300000/Shosanna-Dreyfus-inglourious-basterds-38365336-200-200.jpg'
+            },
+            {
+                id: 3,
+                name: 'Victor',
+                img: 'https://steamuserimages-a.akamaihd.net/ugc/775111136116026664/ADD394B9133679576A876216FCD618DC8AA2D48C/'
+            },
+            {id: 4, name: 'Artem', img: 'https://upload.wikimedia.org/wikipedia/en/e/e8/Hans_Landa_IB_2009.jpg'},
         ]
     }
 }

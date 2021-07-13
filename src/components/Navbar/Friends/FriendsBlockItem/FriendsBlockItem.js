@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 const FriendsBlockItem = (props) => {
     let path = '/dialogs/' + props.id
 
-    return <div>
+    return <div className={classes.friendItem}>
         <img
             src={props.img}/>
 

@@ -1,0 +1,16 @@
+.friendsBlockElements {
+    display: grid;
+    width: 100%;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+.friendsBlockElements h1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    align-self: center;
+    justify-self: center;
+    color: white;
+}

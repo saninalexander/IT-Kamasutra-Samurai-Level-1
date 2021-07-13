@@ -1,3 +1,24 @@
-.friendName {
-    color: aqua;
+.friendItem {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 100%;
+    grid-gap: 10px;
+    align-items: start;
+    justify-items: center;
 }
+
+.friendItem img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.friendName {
+    color: white;
+    text-decoration: none;
+}
+
+.friendName:hover {
+    color: darkred;
+}
+
