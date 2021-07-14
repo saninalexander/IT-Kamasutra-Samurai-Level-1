@@ -1,9 +1,14 @@
 .header {
     grid-area: h;
     background-color: #fdc600;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
 .header img {
-    height: 50%;
-    padding: auto;
+    height: 50px;
+    width: 50px;
 }
