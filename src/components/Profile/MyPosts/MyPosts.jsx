@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './MyPosts.module.css';
 import Post from './Post/Post'
+import {updateNewPostText} from "../../../Redux/state";
 
 const MyPosts = (props) => {
 
@@ -9,9 +10,12 @@ const MyPosts = (props) => {
     let newPostElement = React.createRef() //Метод реакта, создающий ссылку
 
     let addPost = () => {
+        props.addPost(); //через пропсы вызываем функцию из BLL
+    }
+
+    let onPostChange = () => {
         let text = newPostElement.current.value;
-        props.addPost(text);
-        newPostElement.current.value = '';
+        props.updateNewPostText(text); //через пропсы вызываем функцию из BLL
     }
 
     return (
@@ -19,7 +23,9 @@ const MyPosts = (props) => {
             <h3>my posts</h3>
             <div>
                 <div>
-                    <textarea ref={newPostElement}></textarea>
+                    <textarea onChange={onPostChange} // срабатывает каждый раз, когда идет попытка изменить содержимое textarea
+                              ref={newPostElement}
+                              value={props.newPostText}/>
                 </div>
                 <div>
                     <button onClick={addPost}>Add post</button>
